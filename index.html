@@ -35,13 +35,13 @@
         <li><button class="btn">4</button></li>
         <li><button class="btn">5</button></li>
       </ul>
-      <button class="submit">Submit</button>
+      <button class="submit" id="submit">Submit</button>
     </div>
 
     <!-- Rating state end -->
 
     <!-- Thank you state start -->
-    <div class="endContainer">
+    <div class="endContainer hidden">
       <img
         src="images/illustration-thank-you.svg"
         alt=" thank you "
@@ -49,7 +49,7 @@
       />
 
       <h5>
-        You selected<span id=" rating"></span>
+        You selected <span id="rating"> 5</span>
         <!-- Add rating here -->
         out of 5
       </h5>
@@ -60,6 +60,7 @@
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
+      <button class="submit" id="rate-again">Rate Again</button>
     </div>
 
     <!-- Thank you state end -->
@@ -70,5 +71,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">JesseAdjomo</a>.
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

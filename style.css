@@ -27,7 +27,6 @@
   margin: 0;
   padding: 0;
 }
-
 button {
   font-family: inherit;
 }
@@ -39,7 +38,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100vh;
   flex-direction: column;
 }
@@ -70,7 +68,6 @@ body {
   list-style: none;
   margin-left: 1.3rem;
   margin-top: 1rem;
-
   padding: 0;
 }
 
@@ -87,6 +84,7 @@ body {
   margin-bottom: 1.8rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  cursor: pointer;
 }
 
 .btn {
@@ -96,6 +94,7 @@ body {
   background-color: hsl(215, 16%, 30%);
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .endContainer {
   display: inline-block;
@@ -103,6 +102,18 @@ body {
   align-items: center;
   text-align: center;
 }
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.btn:focus {
+  background-color: hsl(217, 12%, 63%);
+  transition: 0.7s;
+}
+.submit:hover {
+  background-color: #fff;
+  color: black;
+}
+
 #thanks-image {
   margin: 25px 10px 15px 0px;
 }
@@ -115,7 +126,10 @@ body {
   color: hsl(25, 97%, 53%);
 }
 .endContainer > p {
-  margin: 10px 30px 30px 30px;
+  margin: 10px 30px 5px 30px;
+}
+.hidden {
+  display: none;
 }
 
 .attribution {
