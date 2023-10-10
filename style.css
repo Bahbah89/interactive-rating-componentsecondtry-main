@@ -51,7 +51,7 @@ body {
 }
 #star-image {
   margin: 20px 10px 10px 30px;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 30px;
   background-color: hsl(215, 16%, 30%);
 }
@@ -61,6 +61,7 @@ body {
 }
 .startContainer > p {
   margin: 10px 10px 10px 40px;
+  color: hsl(217, 12%, 63%);
 }
 
 .startContainer > ul > li {
@@ -127,6 +128,7 @@ body {
 }
 .endContainer > p {
   margin: 10px 30px 5px 30px;
+  color: hsl(217, 12%, 63%);
 }
 .hidden {
   display: none;
